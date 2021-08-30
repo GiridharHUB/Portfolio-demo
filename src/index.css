@@ -26,3 +26,25 @@ code {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border: 5px solid;
+  border-radius: 100px;
+  color: #ef5f67;
+  background-clip: content-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
